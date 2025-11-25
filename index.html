@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts for Montserrat and Alex Brush -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Alex+Brush&display=swap"
+    rel="stylesheet">
+  <title>Document</title>
+</head>
+<body class="color-primary">
+  <!-- carousel section start -->
+  <div class="carousel-section h-screen relative overflow-hidden">
+    <div class="carousel-text text-center h-full content-center">
+      <h2 class="display-2 sm:text">your daily care</h2>
+      <h2 class="display-2">your natural support.</h2>
+     <h1 class="text-[40px] sm:text-[40px] md:text-[40px] lg:text-[50px] font-['Alex_Brush',cursive] text-accent-dark -mt-4">Every Day Use.</h1>
+    </div>
+    <div class="svg-wraper absolute lg:top-[55%] top-[54%] left-0 w-full scale-[4.4] sm:scale-[4] md:scale-[2.8] lg:scale-[2]">
+      <svg class="w-full h-auto opacity-0" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1429 162"
+        fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path id="arcPath" d="M0.188965 161C546.693 -62.105 860.272 -43.6972 1428.19 161" stroke="black" />
+      </svg>
+    </div>
+    <!-- cards wrapper -->
+    <div class="cards-wrapper absolute right-0 translate-x-full top-[25%] flex">
+      <div class="card-1 w-[70vw] sm:w-[80vw] md:w-[45vw] lg:w-[20vw] min-w-[310px] max-w-[400px] z-13">
+        <img class="w-full p-1 border-[#bcaa81] border-2" src="./src/assets/images/card-1.png" srcset="./src/assets/images/card-1.png 1x, ./src/assets/images/card-1@2x.png 2x" alt=""/>
+      </div>
+      <div class="card-2 w-[70vw] sm:w-[80vw] md:w-[45vw] lg:w-[20vw] min-w-[310px] max-w-[400px] relative z-12">
+        <img class="w-full" src="./src/assets/images/card-2.png" srcset="./src/assets/images/card-2.png 1x, ./src/assets/images/card-2@2x.png 2x" alt=""/>
+        <div class="card-content absolute top-[62%] -translate-y-1/2 p-7 text-center">
+          <p class="sm:text-[22px] md:text-[17px] lg:text-[16px]">Taru Bali products are designed to support your self-care in many <b>everyday situations.</b> Whether it’s headaches, muscle pain, swollen gums, or eczema, Taru Bali can offer gentle, natural support for your health and body.</p>
+          <a href="#" class="btn color-dark mt-5 inline-block">How To Use</a>
+        </div>
+      </div>
+      <div class="card-3 w-[70vw] sm:w-[80vw] md:w-[45vw] lg:w-[20vw] min-w-[310px] max-w-[400px] z-11">
+        <img class="w-full p-1 border-[#bcaa81] border-2" src="./src/assets/images/card-3.png" srcset="./src/assets/images/card-3.png 1x, ./src/assets/images/card-3@2x.png 2x" alt=""/>
+      </div>
+    </div>
+    <!-- cards wrapper -->
+  </div>
+<!-- carousel section end -->
+
+<!-- import GSAP plugin motion path  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/MotionPathPlugin.min.js"></script>
+<!-- import GSAP plugin motion path  -->
+<!-- script file -->
+  <script type="module" src="./src/main.js"></script>
+<!-- script file -->
+</body>
+</html> 
